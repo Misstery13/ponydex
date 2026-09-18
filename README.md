@@ -9,6 +9,8 @@ para mostrar los personajes de *My Little Pony: Friendship is Magic*.
 
 No necesitas instalar nada: abre el enlace en el navegador y listo.
 
+![Captura de la Ponydex](docs/captura.png)
+
 ## Funcionalidades
 
 - **Ponydex**: cuadrícula con todos los personajes, buscador por nombre y filtro por
