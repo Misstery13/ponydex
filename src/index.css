@@ -1,0 +1,48 @@
+/* Estilos base y variables de color (paleta lila/rosa estilo MLP).
+   Se cargan una vez desde main.tsx y aplican a toda la app. */
+
+:root {
+  --bg: #fdf6ff;
+  --surface: #ffffff;
+  --text: #3b2d4f;
+  --muted: #8a7f99;
+  --border: #e9dff5;
+  --accent: #a855f7;
+  --accent-dark: #7e22ce;
+  --shadow: 0 4px 14px rgba(120, 60, 180, 0.12);
+
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.2;
+}
