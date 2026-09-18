@@ -69,10 +69,13 @@
 
   .pestanas {
     margin-left: -0.9rem; /* compensa el padding del primer botón */
+    max-width: calc(100% + 0.9rem);
+    overflow-x: auto; /* si no caben, se desplazan en vez de partirse */
   }
 
   .pestanas button {
     height: 44px;
+    white-space: nowrap;
   }
 }
 
