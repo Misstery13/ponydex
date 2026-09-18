@@ -1,7 +1,13 @@
-# 🦄 Ponydex
+# Ponydex
 
 Proyecto en React + TypeScript (Vite) que consume la [Pony API](https://ponyapi.net)
 para mostrar los personajes de *My Little Pony: Friendship is Magic*.
+
+## 🔗 Pruébalo
+
+**https://misstery13.github.io/ponydex/**
+
+No necesitas instalar nada: abre el enlace en el navegador y listo.
 
 ## Funcionalidades
 
@@ -40,3 +46,12 @@ src/
 ## API usada
 
 - `GET https://ponyapi.net/v1/character/all?limit=1000` → lista de personajes.
+
+## Despliegue
+
+El sitio se publica automáticamente en GitHub Pages con cada `push` a `main`
+(ver `.github/workflows/deploy.yml`).
+
+---
+
+Creado por Diana Melena.
